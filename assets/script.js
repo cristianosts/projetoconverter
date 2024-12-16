@@ -19,7 +19,7 @@ brlInput.addEventListener('blur', () => {
     brlInput.value = formatCurrency(brlInput.value)
 })
 
-usdInput.value = '1000,00'
+usdInput.value = '1000,00'   
 convert('usd-to-brl')
 
 //função de converter 
